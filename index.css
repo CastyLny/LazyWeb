@@ -1,0 +1,113 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #14acc6;
+
+}
+
+
+
+.waitingVideo{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	
+}
+
+
+.waitingVideo img{
+	height: 100vh;
+	position: relative;
+	left: 50%;
+	transform:translateX(-50%);
+	
+}
+
+
+
+
+.textOnTop{
+	
+	position: absolute;
+	top: 60%;
+	left: 49%;
+	transform: translate(-50%, -50%)
+}
+
+.textOnTop button{
+	cursor: pointer;
+	background-color: transparent;
+	font-family:   'Indie Flower', cursive;
+	font-size: 25px;
+	outline: none;
+	border: none;
+}
+
+
+.mainContainer{
+	background-image: url("./Material/HomeBackGround.png");
+	background: cover;
+	background-position: center;
+	display: none;
+	style: none;
+	overflow: none;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.mainContainer img{
+	position: absolute;
+	height: 100vh;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.gotoContainer{
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 56%;
+	flex-direction: column;
+	text-align: left;
+	transform: translate(-50%,-50%);
+}
+
+.gotoContainer button{
+	cursor: pointer;
+	padding: 3px 5px 3px 5px;
+	background-color: transparent;
+	font-family:   'Indie Flower', cursive;
+	color: black;
+	font-size: 26px;
+	text-align: center;
+	outline: none;
+	margin-bottom: 30px ;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.gotoContainer button:hover{
+	background-color: #EAEBED;
+}
+
+@media only screen and (max-height: 700px) {
+  	.gotoContainer button{
+		font-size: 20px;
+ 	}
+}
+@media only screen and (max-width: 600px) {
+  	.gotoContainer button{
+		font-size: 20px;
+ 	}
+}
+
+@media only screen and (max-width: 320px) {
+  	.gotoContainer button{
+		font-size: 13px;
+ 	}
+}
+
