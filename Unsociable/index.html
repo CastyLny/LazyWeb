@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unsociable</title>
+	<link rel="icon" href="./Material/icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500;700&family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body id="Body">
+
+<div class="opening" id="opening">
+	<h1 id = "title" class = "title center">Citarum river</h1>
+	<p class="warning" id="Warning"><span>Graphic Warning<span/>: following content contain graphic imagery</p>
+	<button class="continueButton" onclick="start()" id="continueButton">Continue</button>
+</div>
+
+
+<div class = "show" id = "show">
+	<h2 id = "title" class = "title logo">Citarum river</h2>
+	<button class="button back" onclick="newSlide(-1)"><img src="https://img.icons8.com/cotton/30/FFFFFF/circled-chevron-right--v1.png"/></button>
+
+	<button class = "button next" onclick="newSlide(1)"><img src="https://img.icons8.com/cotton/30/FFFFFF/circled-chevron-right--v1.png"/></button>
+	<div class="captionContainer" id="captionContainer"><p id = "caption" class = "caption">This is the map of the citerum river</p></div>
+</div>
+<button onclick="citationHandle()">citation</button>
+<div class="citation" id="citation">
+	<ul>
+		<li><a href="https://en.wikipedia.org/wiki/Citarum_River">Wikipedia</a></li>
+		<li><a href="https://www.thejakartapost.com/news/2020/02/27/west-java-court-declares-textile-company-guilty-of-polluting-citarum-river.html">The Jakarta Post</a></li>
+		<li><a href="https://www.cdc.gov/niosh/topics/lead/health.html#:~:text=Exposure%20to%20high%20levels%20of,a%20developing%20baby's%20nervous%20system.">CDC, lead</a></li>
+		<li><a href="https://www.who.int/news-room/fact-sheets/detail/mercury-and-health#:~:text=Health%20effects%20of%20mercury%20exposure&text=The%20inhalation%20of%20mercury%20vapour,induce%20kidney%20toxicity%20if%20ingested.">WHO, mercury</a></li>
+		<li><a href="https://www.medicalmuseum.mil/index.cfm?p=visit.exhibits.past.nationswounds.page_02">Medical Museum</a></li>
+	</ul>
+</div>
+
+
+</body>
+<script type="text/javascript" src="./index.js"></script>
+</html>

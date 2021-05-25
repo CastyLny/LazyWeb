@@ -1,0 +1,209 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #222;
+	
+	color: white;
+
+}
+
+.title{
+	
+	
+	text-decoration: underline;
+	text-decoration-color: #A4231D;
+}
+
+
+.opening{
+	display: block;
+	max-width: 300px;
+	height: 100%;
+	position:absolute;
+	top:38%;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+
+.warning{
+	text-align: center;
+	font-family: "Domine",serif;
+	font-size: 14px;
+}
+
+.continueButton{
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+	background-color: #EEE;
+	padding: 9px;
+	border:none;
+
+}
+
+.center{
+	text-align: center;
+
+}
+
+
+.logo{
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+	right: 0px;
+	font-family: "Domine", serif;
+	margin: 0px;
+}
+
+.show{
+	text-align: right;
+	display: none;
+	background: url(./Material/002.png);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+.button{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: transparent;
+	border:none;
+
+}
+.button:hover{
+	background-color: white;
+
+}
+
+.back{
+	left: 10px;
+	transform: rotateZ(270deg);
+}
+.next{
+	right: 10px;
+	transform: rotateZ(90deg);
+}
+
+.captionContainer{
+	border: 2px solid #A4231D;
+	border-left: none;
+	position: absolute;
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+	top: 77%;
+	max-width: 200px;
+	left: 0px;
+	margin: 0px;
+	background-color: rgba(10,10,10,0.9);
+	
+	
+
+}
+
+.caption{
+	text-align: left;
+	align-content: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+@keyframes fadein0{
+	from{
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+@keyframes fadein1{
+	from{
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+@keyframes fadein{
+	from{
+		opacity: 0;
+		transform: translateY(20%);
+		transform:translateX(-50%);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0%);
+		transform:translateX(-50%);
+	}
+}
+
+
+
+.citation{
+	transform: translateX(-100%);
+	height: 100%;
+	background-color: #EEE;
+
+}
+
+
+.citation ul{
+	transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+@keyframes showCitation{
+	from{
+		transform: translateX(-100%);
+	}
+	to{
+		transform: translateX(0%);
+	}
+}
+
+@keyframes closeCitation{
+	from{
+		transform: translateX(0%);
+	}
+	to{
+		transform: translateX(-100%);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
